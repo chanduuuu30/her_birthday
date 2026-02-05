@@ -1,120 +1,165 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>HBD ANKITHA</title>	    
-    <link type="text/css" rel="stylesheet" href="file/default.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HBD ANKITHA</title>
 
-    <!-- ✅ TEXT OVERFLOW FIX -->
-    <style>
-        #text {
-            position: absolute;
-            left: 60px;
-            top: 80px;
-            width: 420px;
-            max-width: 420px;
-            color: #fff;
-            font-size: 16px;
-            line-height: 1.8;
-        }
+<link type="text/css" rel="stylesheet" href="file/default.css">
 
-        #code {
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            white-space: normal;
-        }
+<!-- ✅ TEXT WRAP FIX (SAFE) -->
+<style>
+#text {
+    position: absolute;
+    left: 60px;
+    top: 80px;
+    width: 420px;
+    max-width: 420px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+}
 
-        #code .say {
-            display: block;
-            margin-bottom: 6px;
-        }
-    </style>
+#code {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
 
-    <script type="text/javascript" src="file/jquery.min.js"></script>
-    <script type="text/javascript" src="file/jscex.min.js"></script>
-    <script type="text/javascript" src="file/jscex-parser.js"></script>
-    <script type="text/javascript" src="file/jscex-jit.js"></script>
-    <script type="text/javascript" src="file/jscex-builderbase.min.js"></script>
-    <script type="text/javascript" src="file/jscex-async.min.js"></script>
-    <script type="text/javascript" src="file/jscex-async-powerpack.min.js"></script>
-    <script type="text/javascript" src="file/function.js" charset="utf-8"></script>
-    <script type="text/javascript" src="file/love.js" charset="utf-8"></script>
+#code .say {
+    display: block;
+    margin-bottom: 6px;
+}
+</style>
 
-    <script>
-        function playAudio() {
-            var audio = document.getElementById("myAudio");
-            audio.play();
-        }
-    </script>
+<script type="text/javascript" src="file/jquery.min.js"></script>
+<script type="text/javascript" src="file/jscex.min.js"></script>
+<script type="text/javascript" src="file/jscex-parser.js"></script>
+<script type="text/javascript" src="file/jscex-jit.js"></script>
+<script type="text/javascript" src="file/jscex-builderbase.min.js"></script>
+<script type="text/javascript" src="file/jscex-async.min.js"></script>
+<script type="text/javascript" src="file/jscex-async-powerpack.min.js"></script>
+<script type="text/javascript" src="file/function.js"></script>
+<script type="text/javascript" src="file/love.js"></script>
+
+<script>
+function playAudio() {
+    document.getElementById("myAudio").play();
+}
+</script>
 </head>
 
 <body>
 <div id="main">
-    <div id="error">
-        <a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html">Chrome</a>
-        (<a href="http://firefox.com.cn/download/">Firefox</a>)
-    </div>
+<div id="error">Your browser does not support canvas</div>
 
-    <audio autoplay="autoplay" id="myAudio">
-        <source src="aud.mp3" type="audio/mp3" />
-    </audio>
+<audio autoplay id="myAudio">
+    <source src="aud.mp3" type="audio/mp3">
+</audio>
 
-    <div id="wrap">
-        <div id="text">
-            <div id="code">
-                <span class="say">Hey Ankitha 🤍</span>
-                <span class="say">Happy Birthday 🎈✨</span>
-                <span class="say">I hope today brings you peace, smiles, and warmth 🌸</span>
-                <span class="say">&nbsp;</span>
+<div id="wrap">
 
-                <span class="say">If I ever came across the wrong way, I’m truly sorry.</span>
-                <span class="say">Some feelings are hard for me to put into words.</span>
-                <span class="say">But my intentions were always honest.</span>
-                <span class="say">I hope you never felt hurt because of me.</span>
-                <span class="say">&nbsp;</span>
+<div id="text">
+<div id="code">
+<span class="say">Hey Ankitha 🤍</span>
+<span class="say">Happy Birthday 🎈✨</span>
+<span class="say">I hope today brings you peace, smiles, and warmth 🌸</span>
+<span class="say">&nbsp;</span>
 
-                <span class="say">I genuinely respect you and your heart 🤍</span>
-                <span class="say">It mattered to me that you knew this.</span>
-                <span class="say">Thank you for being part of my life 🌸</span>
-                <span class="say">You are truly someone I value 🙂</span>
-                <span class="say">&nbsp;</span>
+<span class="say">If I ever came across the wrong way, I’m truly sorry.</span>
+<span class="say">Some feelings are hard for me to put into words.</span>
+<span class="say">But my intentions were always honest.</span>
+<span class="say">I hope you never felt hurt because of me.</span>
+<span class="say">&nbsp;</span>
 
-                <span class="say">I really like you.</span>
-                <span class="say">Not just for one reason, but for many small ones.</span>
-                <span class="say">And I wanted to be honest about that.</span>
-                <span class="say">&nbsp;</span>
+<span class="say">I genuinely respect you and your heart 🤍</span>
+<span class="say">It mattered to me that you knew this.</span>
+<span class="say">Thank you for being part of my life 🌸</span>
+<span class="say">You are truly someone I value 🙂</span>
+<span class="say">&nbsp;</span>
 
-                <span class="say">On your birthday, I just wish you happiness 💕</span>
-                <span class="say">May your days be lighter and your heart always calm 🍀</span>
-                <span class="say">May you achieve everything you dream of ✨</span>
-                <span class="say">And may life be kind to you, always 🤍</span>
-                <span class="say">&nbsp;</span>
+<span class="say">I really like you.</span>
+<span class="say">Not just for one reason, but for many small ones.</span>
+<span class="say">And I wanted to be honest about that.</span>
+<span class="say">&nbsp;</span>
 
-                <span class="say">Happy Birthday once again 🎂</span>
-                <span class="say">You truly deserve all the good things ❤️</span>
-                <span class="say">Please talk to me Ankitha 🥺</span>
-            </div>
-        </div>
+<span class="say">On your birthday, I just wish you happiness 💕</span>
+<span class="say">May your days be lighter and your heart always calm 🍀</span>
+<span class="say">May you achieve everything you dream of ✨</span>
+<span class="say">And may life be kind to you, always 🤍</span>
+<span class="say">&nbsp;</span>
 
-        <div id="clock-box">
-            <span id="clock">577 days 0 hours 0 minutes 0 seconds</span>
-        </div>
+<span class="say">Happy Birthday once again 🎂</span>
+<span class="say">You truly deserve all the good things ❤️</span>
+<span class="say">Please talk to me Ankitha 🥺</span>
+</div>
+</div>
 
-        <canvas id="canvas" width="1100" height="680"></canvas>
-    </div>
+<div id="clock-box">
+<span id="clock">577 days 0 hours 0 minutes 0 seconds</span>
+</div>
+
+<canvas id="canvas" width="1100" height="680"></canvas>
+</div>
 </div>
 
 <script>
 (function () {
     var canvas = $('#canvas');
-    if (!canvas[0].getContext) return;
+
+    if (!canvas[0].getContext) {
+        $("#error").show();
+        return;
+    }
 
     var width = canvas.width();
     var height = canvas.height();
     canvas.attr("width", width);
     canvas.attr("height", height);
 
+    var opts = {
+        seed: { x: width / 2 - 20, color: "rgb(190,26,37)", scale: 2 },
+        branch: [[535,680,570,250,500,200,30,100,[
+            [540,500,455,417,340,400,13,100,[[450,435,434,430,394,395,2,40]]],
+            [550,445,600,356,680,345,12,100,[[578,400,648,409,661,426,3,80]]],
+            [539,281,537,248,534,217,3,40],
+            [546,397,413,247,328,244,9,80,[
+                [427,286,383,253,371,205,2,40],
+                [498,345,435,315,395,330,4,60]
+            ]],
+            [546,357,608,252,678,221,6,100,[[590,293,646,277,648,271,2,80]]]
+        ]]]
+    };
+
     var tree = new Tree(canvas[0], width, height, opts);
+    var seed = tree.seed;
+    var foot = tree.footer;
+    var hold = 1;
+
+    canvas.click(function(e) {
+        playAudio();
+        var o = canvas.offset();
+        if (seed.hover(e.pageX - o.left, e.pageY - o.top)) {
+            hold = 0;
+            canvas.unbind("click mousemove").removeClass('hand');
+        }
+    }).mousemove(function(e) {
+        var o = canvas.offset();
+        canvas.toggleClass('hand', seed.hover(e.pageX - o.left, e.pageY - o.top));
+    });
+
+    var runAsync = eval(Jscex.compile("async", function () {
+        seed.draw();
+        while (hold) $await(Jscex.Async.sleep(10));
+        while (seed.canScale()) { seed.scale(0.95); $await(Jscex.Async.sleep(10)); }
+        while (seed.canMove()) { seed.move(0,2); foot.draw(); $await(Jscex.Async.sleep(10)); }
+
+        while (tree.canGrow()) { tree.grow(); $await(Jscex.Async.sleep(10)); }
+        while (tree.canFlower()) { tree.flower(2); $await(Jscex.Async.sleep(10)); }
+
+        $("#code").show().typewriter();
+    }));
+
+    runAsync().start();
 })();
 </script>
 
